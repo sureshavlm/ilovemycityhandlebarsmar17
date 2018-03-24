@@ -1,0 +1,17 @@
+<div class="row">
+	<div class="col-md-12 text-center">
+		<h1> <{{cityLabel}} has something to say!</h1>
+	</div>
+</div>
+
+<div class="row">
+
+	{{#each imageCount}}
+		<div class="col-md-6">
+			<div class="thumbnail">
+				<img src="/images/{{../city}}/{{this}}.jpeg">
+			
+			</div>
+		</div>
+	{{/each}}
+</div>
